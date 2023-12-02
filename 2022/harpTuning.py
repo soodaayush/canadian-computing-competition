@@ -1,22 +1,26 @@
-def harpTuning(instructions):
-    instruction = ""
-    cleanInstructions = []
+letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+numbers = "-0123456789"
+string = ""
 
-    for i in instructions:
-        if i == "+":
-            instruction += " tighten "
+instructions = input()
+instructions = list(instructions)
 
-        if i == "-":
-            instruction += " loosen "
+for i in range(len(instructions)):
+    if instructions[i] in letters:
+        print(instructions[i])
 
-        if i.isnumeric():
-            instruction += i
-            cleanInstructions.append(instruction)
-            instruction = ""
-        elif i != "+" and i != "-":
-            instruction += i
+        if instructions[i - 1] in numbers:
+            instructions.insert(i, "*")
 
-    return cleanInstructions
+instructions.pop(0)
 
+print(instructions)
 
-print(harpTuning("AFB+8SC-4H-2GDPE+9"))
+for i in instructions:
+    string += i
+
+string = string.replace("+", " tighten ")
+string = string.replace("-", " loosen ")
+string = string.replace("*", "\n")
+
+print(string)

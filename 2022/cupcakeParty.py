@@ -1,10 +1,9 @@
-def cupcakeParty(r, s):
-    students = 28
-    regular = 8 * r
-    small = 3 * s
-    total = regular + small
+r = int(input())
+s = int(input())
 
-    return total - students
+students = 28
+regular = 8 * r
+small = 3 * s
+total = regular + small
 
-
-# print(cupcakeParty(2, 3))
+print(total - students)

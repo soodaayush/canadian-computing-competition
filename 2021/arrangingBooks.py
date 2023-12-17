@@ -1,27 +1,24 @@
 unsortedBooks = "LLSLMSLSM"
+unsortedBooks = unsortedBooks.replace("L", "3")
+unsortedBooks = unsortedBooks.replace("M", "2")
+unsortedBooks = unsortedBooks.replace("S", "1")
 unsortedBooks = list(unsortedBooks)
 sortedBooks = list(unsortedBooks)
 
 swaps = 0
 
-sortedBooks.sort()
+sortedBooks.sort(reverse=True)
 
 if sortedBooks == unsortedBooks:
     print(swaps)
 else:
-    for i, element in enumerate(unsortedBooks):
-        for j, element2 in enumerate(unsortedBooks):
-            if unsortedBooks[j] == "S" and unsortedBooks[j + 1] == "M":
+    for i in range(0, len(unsortedBooks) - 1):
+        for j in range(0, len(unsortedBooks) - 1):
+            if unsortedBooks[j] < unsortedBooks[j + 1]:
                 temp = unsortedBooks[j]
                 unsortedBooks[j] = unsortedBooks[j + 1]
                 unsortedBooks[j + 1] = temp
-            if unsortedBooks[j] == "S" and unsortedBooks[j + 1] == "L":
-                temp = unsortedBooks[j]
-                unsortedBooks[j] = unsortedBooks[j + 1]
-                unsortedBooks[j + 1] = temp
-            if unsortedBooks[j] == "M" and unsortedBooks[j + 1] == "L":
-                temp = unsortedBooks[j]
-                unsortedBooks[j] = unsortedBooks[j + 1]
-                unsortedBooks[j + 1] = temp
+                swaps = swaps + 1
+    if sortedBooks == unsortedBooks:
+        print(swaps)
 
-print(unsortedBooks)

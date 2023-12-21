@@ -1,31 +1,36 @@
-# unsortedBooks = "LLSLM"
-unsortedBooks = str(input())
-unsortedBooksList = list(unsortedBooks)
+# Initialize variables
+num_l = 0
+num_m = 0
+misplaced_l = 0
+misplaced_m = 0
+m_in_l = 0
+l_in_m = 0
 
-unsortedBooks = unsortedBooks.replace("L", "3")
-unsortedBooks = unsortedBooks.replace("M", "2")
-unsortedBooks = unsortedBooks.replace("S", "1")
+# Input
+shelf = "LLSLM"
 
-unsortedBooks = list(unsortedBooks)
+# Count the number of large and medium books
+for i in range(len(shelf)):
+    if shelf[i] == "L":
+        num_l += 1
+    elif shelf[i] == "M":
+        num_m += 1
 
-sortedBooks = list(unsortedBooksList)
-sortedBooks.sort()
+# Count # of misplaced books & # of M in large section
+for i in range(0, num_l):
+    if shelf[i] == "M":
+        m_in_l += 1
+        misplaced_l += 1
+    elif shelf[i] == "S":
+        misplaced_l += 1
 
-swaps = 0
-length = len(unsortedBooks) - 1
+# Count # of misplaced books & # of L in medium section
+for i in range(num_l, num_l + num_m):
+    if shelf[i] == "L":
+        l_in_m += 1
+        misplaced_m += 1
+    elif shelf[i] == "S":
+        misplaced_m += 1
 
-if sortedBooks == unsortedBooksList:
-    print(0)
-else:
-    for j in range(0, length):
-        if unsortedBooks[j] == "3" and unsortedBooks[j - 1] != "3":
-            unsortedBooks.pop(j)
-            unsortedBooks.insert(0, "3")
-            swaps = swaps + 1
-        elif unsortedBooks[j] == "1" and unsortedBooks[j + 1] != "1":
-            unsortedBooks.pop(j)
-            unsortedBooks.append("1")
-            swaps = swaps + 1
-
-    print(swaps)
-
+# Output minimum swaps
+print(misplaced_l + misplaced_m - min(m_in_l, l_in_m))

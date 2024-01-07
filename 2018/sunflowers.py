@@ -1,9 +1,8 @@
-sunflowerCount = 3
+sunflowerCount = int(input())
+sunflowerArr = []
 
-sunflowerArr = [[4, 3, 1], [6, 5, 2], [9, 7, 3]]
-
-# for i in range(sunflowerCount):
-#     sunflowerArr.append(input().split(" "))
+for i in range(sunflowerCount):
+    sunflowerArr.append(input().split(" "))
 
 smallestNum = min(int(sunflowerArr[0][0]), int(sunflowerArr[0][sunflowerCount - 1]),
                   int(sunflowerArr[sunflowerCount - 1][0]), int(sunflowerArr[sunflowerCount - 1][sunflowerCount - 1]))
@@ -16,9 +15,7 @@ smallestNum = min(int(sunflowerArr[0][0]), int(sunflowerArr[0][sunflowerCount - 
 
 for i in range(4):
     if int(sunflowerArr[0][0]) != smallestNum:
-        var1 = (reversed(sunflowerArr))
-        sunflowerArr = list(zip(*var1))
-        # sunflowerArr = list(zip(*reversed(sunflowerArr)))
+        sunflowerArr = list(zip(*reversed(sunflowerArr)))
         continue
     if int(sunflowerArr[0][0]) == smallestNum:
         break

@@ -4,18 +4,30 @@ c = int(input())
 d = int(input())
 s = int(input())
 
-nikkySteps = 0
-byronSteps = 0
 
-forward = True
+def stepCalculator(stepsForward, stepsBackward, maxSteps):
+    total = 0
+    steps = 0
 
-for i in range(10000000):
-    if forward and (nikkySteps + a <= s):
-        nikkySteps += a
-        s -= a
-        forward = False
-    else:
-        nikkySteps -= b
-        nikkySteps -= b
+    while total < maxSteps:
+        if total + stepsForward <= maxSteps:
+            steps += stepsForward
+            total += stepsForward
+        elif total + stepsForward > maxSteps:
+            steps += maxSteps - total
+            total += maxSteps - total
+        if total + stepsBackward <= maxSteps:
+            steps -= stepsBackward
+            total += stepsBackward
+        elif total + stepsBackward > maxSteps:
+            steps -= maxSteps - total
+            total += maxSteps - total
+    return steps
 
-print(nikkySteps)
+
+if stepCalculator(a, b, s) > stepCalculator(c, d, s):
+    print("Nikky")
+elif stepCalculator(c, d, s) > stepCalculator(a, b, s):
+    print("Byron")
+else:
+    print("Tied")

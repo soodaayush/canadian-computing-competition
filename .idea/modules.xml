@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/waterloo-computing-contests.iml" filepath="$PROJECT_DIR$/.idea/waterloo-computing-contests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/waterloo-computing-contests2.iml" filepath="$PROJECT_DIR$/.idea/waterloo-computing-contests2.iml" />
     </modules>
   </component>
 </project>

@@ -14,6 +14,10 @@ Designing solutions to solve the complex problems.
 
 These are some of my solutions to junior CCC (Canadian Computing Competition) contests ranging from 2024 - 2010.
 
+## Lessons Learned
+
+I learned to break down complex problems into smaller pieces and to tackle all of the small pieces to solve the bigger problem.
+
 ## Contests Written
 
 ### 2024 Junior Canadian Computing Competition

@@ -1,5 +1,7 @@
 # Canadian Computing Competition
 
+![CCC](https://github.com/user-attachments/assets/daf86fb2-7301-4772-83d7-2856e1aea159)
+
 ## Inspiration
 
 I heard about this contest and decided I wanted to test my problem solving skills.

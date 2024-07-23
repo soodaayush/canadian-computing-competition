@@ -12,7 +12,7 @@ Designing solutions to solve the complex problems.
 
 ## The Repository
 
-These are some of my solutions to junior CCC (Canadian Computing Competition) contests ranging from 2024 - 2010.
+These are some of my solutions to junior CCC (Canadian Computing Competition) contests ranging from 2010 - 2024.
 
 ## Lessons Learned
 

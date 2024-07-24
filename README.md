@@ -4,11 +4,11 @@
 
 ## Inspiration
 
-I heard about this contest and decided I wanted to test my problem solving skills.
+I heard about this contest and decided I wanted to test my problem-solving skills.
 
 ## Challenges
 
-Designing solutions to solve the complex problems.
+Designing solutions to solve complex problems.
 
 ## The Repository
 
@@ -16,7 +16,7 @@ These are some of my solutions to junior CCC (Canadian Computing Competition) co
 
 ## Lessons Learned
 
-I learned to break down complex problems into smaller pieces and to tackle all of the small pieces to solve the bigger problem.
+I learned to break down complex problems into smaller pieces and tackle all the small pieces to solve the bigger problem.
 
 ## Contests Written
 

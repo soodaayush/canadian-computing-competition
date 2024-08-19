@@ -4,15 +4,15 @@
 
 ## Inspiration
 
-I heard about this contest and decided I wanted to test my problem-solving skills.
+I heard about this programming contest and decided I wanted to test my problem-solving skills so I can eventually compete at the national or even international level.
 
 ## Challenges
 
-Designing solutions to solve complex problems.
+Designing clean and efficient solutions to solve complex problems.
 
 ## The Repository
 
-These are some of my solutions to junior CCC (Canadian Computing Competition) contests ranging from 2010 - 2024.
+These are some of my solutions to Junior CCC contests ranging from 2010 - 2024.
 
 ## Lessons Learned
 

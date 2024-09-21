@@ -1,0 +1,8 @@
+# ninja log v6
+3	286	7486314400269243	build.ninja	1848e0a9a09a2c1b
+6	325	7486311998168734	CMakeFiles/hatCircle.dir/hatCircle.cpp.obj	7c13be8dd8e77f92
+326	441	7486312001364477	hatCircle.exe	e66bd6d908192ec9
+2	484	7486324218984641	CMakeFiles/heavyLightComposition.dir/heavyLightComposition.cpp.obj	65caca957990a35d
+484	591	7486324223806696	heavyLightComposition.exe	91b6268beeb19756
+5	396	7486340717186624	CMakeFiles/hatCircle.dir/hatCircle.cpp.obj	7c13be8dd8e77f92
+396	492	7486340721097441	hatCircle.exe	e66bd6d908192ec9

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "2024",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hatCircle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hatCircle-Debug-2c879a6cb225d70a720e.json",
+					"name" : "hatCircle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "heavyLightComposition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-heavyLightComposition-Debug-06bf874f4772990bb6ab.json",
+					"name" : "heavyLightComposition",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/aayus/Development/canadian-computing-competition/c++/2024/cmake-build-debug",
+		"source" : "C:/Users/aayus/Development/canadian-computing-competition/c++/2024"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

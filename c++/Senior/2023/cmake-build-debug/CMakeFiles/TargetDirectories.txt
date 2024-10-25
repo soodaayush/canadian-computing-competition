@@ -1,0 +1,3 @@
+C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2023/cmake-build-debug/CMakeFiles/trianglane.dir
+C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2023/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2023/cmake-build-debug/CMakeFiles/rebuild_cache.dir

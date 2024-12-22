@@ -22,4 +22,5 @@ I learned to break down complex problems into smaller pieces and tackle all the 
 
 ### 2024 Junior Canadian Computing Competition
 
-Honour Rolls (Group 3): https://www.cemc.uwaterloo.ca/contests/past_contests/2024/2024CCCResults.pdf
+Honour Rolls (Group 3): 
+[2024CCCResults.pdf](https://github.com/user-attachments/files/18222239/2024CCCResults.pdf)

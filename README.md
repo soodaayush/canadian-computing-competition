@@ -16,7 +16,7 @@ These are some of my solutions to Junior CCC contests ranging from 2010 - 2024.
 
 ## Lessons Learned
 
-I learned to break down complex problems into smaller pieces and tackle all the small pieces to solve the bigger problem.
+I learned how to break down complex problems into smaller, manageable parts and address each one to solve the overall issue.
 
 ## Contests Written
 

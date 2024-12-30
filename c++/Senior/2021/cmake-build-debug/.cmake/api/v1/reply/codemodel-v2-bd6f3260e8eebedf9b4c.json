@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.30"
@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "2021",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "crazyFencing::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-crazyFencing-Debug-474c33d30a9176ff9c05.json",
+					"jsonFile" : "target-crazyFencing-Debug-72b6cf1445013d3663ac.json",
 					"name" : "crazyFencing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "modernArt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-modernArt-Debug-94c97e5760f30f154c1c.json",
+					"name" : "modernArt",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2021/cmake-build-debug",
-		"source" : "C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2021"
+		"build" : "/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2021/cmake-build-debug",
+		"source" : "/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2021"
 	},
 	"version" : 
 	{

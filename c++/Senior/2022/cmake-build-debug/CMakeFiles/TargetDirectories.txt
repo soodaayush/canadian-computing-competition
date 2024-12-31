@@ -1,3 +1,0 @@
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2022/cmake-build-debug/CMakeFiles/goodFoursAndGoodFives.dir
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2022/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2022/cmake-build-debug/CMakeFiles/rebuild_cache.dir

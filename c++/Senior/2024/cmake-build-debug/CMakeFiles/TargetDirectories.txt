@@ -1,4 +1,0 @@
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2024/cmake-build-debug/CMakeFiles/hatCircle.dir
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2024/cmake-build-debug/CMakeFiles/heavyLightComposition.dir
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2024/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir

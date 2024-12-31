@@ -1,4 +1,0 @@
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2020/cmake-build-debug/CMakeFiles/surmisingASprintersSpeed.dir
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2020/cmake-build-debug/CMakeFiles/searchingForStrings.dir
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2020/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2020/cmake-build-debug/CMakeFiles/rebuild_cache.dir

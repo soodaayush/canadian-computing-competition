@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/modernArt.dir/modernArt.cpp.o"
-  "CMakeFiles/modernArt.dir/modernArt.cpp.o.d"
-  "modernArt"
+  "CMakeFiles/modernArt.dir/modernArt.cpp.obj"
+  "CMakeFiles/modernArt.dir/modernArt.cpp.obj.d"
+  "libmodernArt.dll.a"
+  "modernArt.exe"
+  "modernArt.exe.manifest"
   "modernArt.pdb"
 )
 

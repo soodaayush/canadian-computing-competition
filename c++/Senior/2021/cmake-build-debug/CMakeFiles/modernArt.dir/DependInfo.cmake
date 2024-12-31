@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/aayushsood/Development/canadian-computing-competition/c++/Senior/2021/modernArt.cpp" "CMakeFiles/modernArt.dir/modernArt.cpp.o" "gcc" "CMakeFiles/modernArt.dir/modernArt.cpp.o.d"
+  "C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2021/modernArt.cpp" "CMakeFiles/modernArt.dir/modernArt.cpp.obj" "gcc" "CMakeFiles/modernArt.dir/modernArt.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

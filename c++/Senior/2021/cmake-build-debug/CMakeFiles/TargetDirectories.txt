@@ -1,4 +1,0 @@
-C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2021/cmake-build-debug/CMakeFiles/crazyFencing.dir
-C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2021/cmake-build-debug/CMakeFiles/modernArt.dir
-C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2021/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/aayus/Development/canadian-computing-competition/c++/Senior/2021/cmake-build-debug/CMakeFiles/rebuild_cache.dir

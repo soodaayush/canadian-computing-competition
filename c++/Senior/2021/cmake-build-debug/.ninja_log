@@ -1,6 +1,0 @@
-# ninja log v6
-4	225	7570311462426206	build.ninja	44024a55aaa6861a
-1	1275	7570314177075987	CMakeFiles/crazyFencing.dir/crazyFencing.cpp.obj	f70da95f17f972a5
-1278	1401	7570314189840216	crazyFencing.exe	9bb1bf304404d1d2
-5	1297	7570315084189967	CMakeFiles/crazyFencing.dir/crazyFencing.cpp.obj	f70da95f17f972a5
-1297	1384	7570315097112509	crazyFencing.exe	9bb1bf304404d1d2

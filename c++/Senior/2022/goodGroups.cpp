@@ -1,40 +1,63 @@
 #include <bits/stdc++.h>
-#include <algorithm>
 
 using namespace std;
+
+bool areInSameGroup(const unordered_map<string, int>& groupMap, const string& student1, const string& student2) {
+    return groupMap.at(student1) == groupMap.at(student2);
+}
 
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-    int sameGroupCount, differentGroupCount, groupCount;
-    int violations = 0;
+    int X, Y, G;
+    cin >> X;
+    cin.ignore();
 
-    vector<string> sameGroup;
-    vector<string> differentGroup;
-    vector<string> group;
+    vector<pair<string, string>> mustBeTogether(X);
+    for (int i = 0; i < X; ++i) {
+        string student1, student2;
+        cin >> student1 >> student2;
+        mustBeTogether[i] = {student1, student2};
+    }
 
-    cin >> sameGroupCount;
-    if (sameGroupCount > 0) for (int i = 0; i < sameGroupCount; i++) cin >> sameGroup[i];
+    cin >> Y;
+    cin.ignore();
 
-    cin >> differentGroupCount;
-    if (differentGroupCount > 0)  for (int i = 0; i < differentGroupCount; i++) cin >> differentGroup[i];
+    vector<pair<string, string>> mustBeSeparate(Y);
+    for (int i = 0; i < Y; ++i) {
+        string student1, student2;
+        cin >> student1 >> student2;
+        mustBeSeparate[i] = {student1, student2};
+    }
 
-    cin >> groupCount;
-    if (groupCount > 0)  for (int i = 0; i < groupCount; i++) cin >> group[i];
+    cin >> G;
+    cin.ignore();
 
-    int count = 0;
-
-    if (sameGroupCount > 0) {
-        for (const auto& elem : sameGroup) {
-            // Check each inner vector in vec2
-            for (const auto& innerVec : group) {
-                // If element from vec1 is found in the inner vector, increment the count
-                if (find(innerVec.begin(), innerVec.end(), elem) != innerVec.end()) {
-                    ++count;
-                    break;  // Stop checking further inner vectors once a match is found
-                }
-            }
+    unordered_map<string, int> groupMap;
+    for (int i = 0; i < G; ++i) {
+        string groupLine;
+        getline(cin, groupLine);
+        stringstream ss(groupLine);
+        string student;
+        while (ss >> student) {
+            groupMap[student] = i;
         }
     }
+
+    int violations = 0;
+
+    for (const auto& constraint : mustBeTogether) {
+        if (!areInSameGroup(groupMap, constraint.first, constraint.second)) {
+            ++violations;
+        }
+    }
+
+    for (const auto& constraint : mustBeSeparate) {
+        if (areInSameGroup(groupMap, constraint.first, constraint.second)) {
+            ++violations;
+        }
+    }
+
+    cout << violations << endl;
 }

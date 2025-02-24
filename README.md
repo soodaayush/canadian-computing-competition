@@ -12,7 +12,7 @@ Designing clean and efficient solutions to solve complex problems.
 
 ## The Repository
 
-These are some of my solutions to Junior CCC contests ranging from 2010 - 2024.
+These are some of my solutions to Junior & Senior CCC contests ranging from 2010 - 2024.
 
 ## Lessons Learned
 

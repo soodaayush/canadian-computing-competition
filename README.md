@@ -8,7 +8,7 @@ I heard about this programming contest and decided I wanted to test my problem-s
 
 ## Challenges
 
-Designing clean and efficient solutions to solve complex problems.
+Designing clean and efficient solutions to solve complex problems, especially those that involve data structures and algorithms that take time to execute.
 
 ## The Repository
 

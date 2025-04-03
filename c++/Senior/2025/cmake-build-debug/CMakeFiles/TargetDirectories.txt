@@ -1,0 +1,5 @@
+/Users/aayushsood/Development/canadian-computing-competition/2025/cmake-build-debug/CMakeFiles/positioningPetersPaintings.dir
+/Users/aayushsood/Development/canadian-computing-competition/2025/cmake-build-debug/CMakeFiles/cryptogramHackingClub.dir
+/Users/aayushsood/Development/canadian-computing-competition/2025/cmake-build-debug/CMakeFiles/floorIsLava.dir
+/Users/aayushsood/Development/canadian-computing-competition/2025/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aayushsood/Development/canadian-computing-competition/2025/cmake-build-debug/CMakeFiles/rebuild_cache.dir

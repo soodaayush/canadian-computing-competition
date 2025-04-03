@@ -1,0 +1,13 @@
+# ninja log v6
+3	1085	1739971306890829432	CMakeFiles/1.dir/1.cpp.o	55edef04898de435
+3	1035	1739972490520671675	CMakeFiles/positioningPetersPaintings.dir/positioningPetersPaintings.cpp.o	196dbf8b2e8f3e1a
+3	1039	1739971590748894021	CMakeFiles/cryptogramHackingClub.dir/cryptogramHackingClub.cpp.o	3586c8d165b1ee10
+1228	1288	1739977354484260536	floorIsLava	5ffdbc91da80ab08
+1085	1140	1739971307973025616	1	632482cbc5ed2250
+1035	1095	1739972491553203565	positioningPetersPaintings	1d094d851887baac
+4	1228	1739977353260753695	CMakeFiles/floorIsLava.dir/floorIsLava.cpp.o	6080df88a6a9ac72
+1	1199	1739976154086395505	CMakeFiles/todoList.dir/todoList.cpp.o	ea3f469fc4c70cbc
+1040	1158	1739971591786151537	cryptogramHackingClub	59e92b3e4f0f7edf
+1199	1263	1739976155284550722	todoList	60b9e87d68e5cc62
+4	1270	1739977848891892582	CMakeFiles/prettyPens.dir/prettyPens.cpp.o	e034a20e6d5b04c7
+1270	1396	1739977850157744606	prettyPens	b490a5feb2b34f3e

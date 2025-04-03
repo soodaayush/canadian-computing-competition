@@ -1,0 +1,15 @@
+/Users/aayushsood/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/aayushsood/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_CXX_COMPILER=/opt/homebrew/bin/g++-14 -G Ninja -S /Users/aayushsood/Development/canadian-computing-competition/2025 -B /Users/aayushsood/Development/canadian-computing-competition/2025/cmake-build-debug
+CMake Warning at /Users/aayushsood/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake:311 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Users/aayushsood/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake:34 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/aayushsood/Development/canadian-computing-competition/2025/cmake-build-debug

@@ -22,5 +22,10 @@ I learned how to break down complex problems into smaller, manageable parts and 
 
 ### 2024 Junior Canadian Computing Competition
 
+Score: 66/75 \
 Honour Rolls (Group 3): 
 [2024CCCResults.pdf](https://cemc.uwaterloo.ca/sites/default/files/documents/2024/2024CCCResults.pdf)
+
+### 2025 Senior Canadian Computing Competition
+
+Score: 45/75

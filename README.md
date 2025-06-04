@@ -4,19 +4,24 @@
 
 ## Inspiration
 
-I heard about this programming contest and decided I wanted to test my problem-solving skills so I can eventually compete at the national or even international level.
+I came across the CCC while looking for ways to challenge myself beyond classroom assignments. Competitive programming seemed like a natural next step, a way to sharpen both speed and precision in problem-solving. My long-term goal is to compete at the national level and, ideally, aim for the international stage.
 
 ## Challenges
 
-Designing clean and efficient solutions to solve complex problems, especially those that involve data structures and algorithms that take time to execute.
+Solving CCC problems isn’t just about writing code that works, it’s about writing clean, efficient, and scalable solutions. Whether it's handling edge cases, optimizing time complexity, or choosing the right data structure, every question pushes me to think critically under time constraints.
 
 ## The Repository
 
-These are some of my solutions to Junior & Senior CCC contests ranging from 2010 - 2024.
+This repository contains my solutions to problems from the Canadian Computing Competition (CCC), a programming contest that tests algorithmic thinking, problem decomposition, and coding under pressure. This repository is a work in progress, as I continue competing, I'll keep updating it with new insights and solutions.
 
 ## Lessons Learned
 
-I learned how to break down complex problems into smaller, manageable parts and address each one to solve the overall issue.
+Through these contests, I've strengthened my ability to:
+
+- Break down complex problems into manageable components
+- Translate logic into clean, working code
+- Analyze and improve time/space efficiency
+- Reflect on mistakes and refine my approach
 
 ## Contests Written
 
@@ -24,7 +29,7 @@ I learned how to break down complex problems into smaller, manageable parts and 
 
 Score: 66/75 \
 Honour Rolls (Group 3): 
-[2024CCCResults.pdf](https://cemc.uwaterloo.ca/sites/default/files/documents/2024/2024CCCResults.pdf)
+[View PDF](https://cemc.uwaterloo.ca/sites/default/files/documents/2024/2024CCCResults.pdf)
 
 ### 2025 Senior Canadian Computing Competition
 

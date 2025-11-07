@@ -28,9 +28,10 @@ Through these contests, I've strengthened my ability to:
 ### 2024 Junior Canadian Computing Competition
 
 Score: 66/75 \
-Honour Rolls (Group 3): 
+Certificate of Distinction + Honour Rolls (Group 3): 
 [View PDF](https://cemc.uwaterloo.ca/sites/default/files/documents/2024/2024CCCResults.pdf)
 
 ### 2025 Senior Canadian Computing Competition
 
 Score: 45/75
+Certificate of Distinction
